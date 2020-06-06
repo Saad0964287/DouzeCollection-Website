@@ -1,0 +1,273 @@
+
+.logo{
+    /* background-color: yellowgreen; */
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.logo>img{
+    height: 190px;
+    width: 350px;
+    /* background-color: brown; */
+}
+
+        /* Subscription continer start */
+/* *****************************************         */
+.email-enter{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: whitesmoke;
+    text-align: center;
+    height: 240px;
+    width: 100%;
+    padding-top: 15px;
+    align-items: center;
+}
+.inputemail{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+    height: 25px;
+    margin-right: 5px;
+}
+.submitbutton{
+    padding-left: 5px 5px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.submitbutton:hover{
+    padding-left: 5px 5px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.829);
+    color: rgba(0, 0, 0, 0.829);
+    background-color: whitesmoke ;
+    cursor: pointer;
+}
+.caution{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: whitesmoke;
+    text-align: center;
+    min-height: 600px;
+    max-height: 1000px;
+    width: 100%;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.text{
+  
+    position: relative;
+    top: 140px;
+}
+.slider{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    
+}
+
+        /* Subscription continer End */
+
+
+
+
+
+#images3inrow{
+    height: 80%;
+    width: 100%;
+    align-content: center;
+}
+.firstimage{
+    width: 300px;
+    height: 650px;
+    background-color: wheat;
+    padding: 20px 20px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.paoi{
+    flex-wrap: wrap;
+   
+}
+
+/* ******************************************** */
+            /* kids section */
+
+#heading{
+    font-family: Goudy Old Style;
+}
+
+.imagecontainer{
+    padding: 25px 0px ;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    
+    
+}
+.imagecontainer>h2{
+    letter-spacing: 3px;
+}
+
+.image1 > a >img,
+.image2 > a >img,
+.image3 > a >img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.image1 {
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px ;
+    padding-top: 20px;
+    background-color: whitesmoke;
+   
+}
+
+.image2 {
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px ;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+ 
+
+}
+.image3 {
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px ;
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+ 
+/* ---------------------------------- */
+.kidcollection{
+    width: 100%;
+    height: 380px;
+    margin: auto;
+}
+.kidcollection>img{
+    position: static;
+    width: 100%;
+    height: 380px;
+    margin: auto;
+}
+#sixing{
+    background-color: rgba(245, 245, 245, 0.747);
+    height: 270px;
+    width: 450px;
+    z-index: 1;
+    position: relative;
+    bottom: 335px;
+    padding: 4px;
+    letter-spacing: 1px;
+
+}
+
+.shopnowbutton{
+    margin-top: 15px;
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.shopnowbutton:hover{
+    height: 40px;
+    width: 130px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+@media only screen and (max-width: 500px){
+    #sixing{
+        background-color: rgba(245, 245, 245, 0.747);
+        height: 230px;
+        width: 360px;
+        z-index: 1;
+        position: relative;
+        bottom: 335px;
+        padding: 4px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    
+    }
+    .shopnowbutton{
+        margin-top: 15px;
+        height: 35px;
+        width: 110px;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        cursor: pointer;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .shopnowbutton:hover{
+        height: 35px;
+        width: 110px;
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    #sixing{
+        background-color: rgba(245, 245, 245, 0.747);
+        height: 230px;
+        width: 200px;
+        z-index: 1;
+        position: relative;
+        bottom: 335px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 18px;
+        padding-right: 18px;
+        letter-spacing: 1px;
+        font-size: 11px;
+    
+    }
+    .shopnowbutton{
+        margin-top: 15px;
+        height: 35px;
+        width: 110px;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        cursor: pointer;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .shopnowbutton:hover{
+        height: 35px;
+        width: 110px;
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+    }
+
+}

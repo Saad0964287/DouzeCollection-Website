@@ -1,0 +1,216 @@
+
+.picmain{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative; 
+    
+}
+.picdiv{
+    width: 250px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    /* background-color: cadetblue; */
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.picdiv> img{
+    height: 100%;
+    width: 100%;
+}
+.detaildiv{
+    /* background-color: royalblue; */
+    width: auto;
+    max-width: 690px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 20px 20px;
+}
+.multiimagecontainer{
+    /* justify-content: space-between; */
+    padding: 0px 10px;
+}
+.imagesizing{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px 10px;
+    position: relative;
+}
+
+.imagesizing > img{
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.purchase{
+    height: 60px;
+    width: 210px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    position: relative;
+    top: 20px;
+    bottom: 0px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.imagecaptionclass{
+    font-family: candara;
+    cursor: pointer;
+}
+.menscollectionheading{
+    text-align: center;
+    font-family: Nyala;
+    letter-spacing: 5px;
+    color: rgb(53, 53, 53);
+}
+
+
+@media only screen and (max-width: 1000px){
+    .detaildiv{
+        /* background-color: goldenrod; */
+        width: auto;
+        max-width: 470px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 20px 20px;
+        margin-left: 80px;
+    }
+    
+}
+@media only screen and (max-width: 870px){
+    .detaildiv{
+        /* background-color: thistle; */
+        width: auto;
+        max-width: 430px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 20px 20px;
+        margin-left: 20px;
+    }
+    .imagesizing > img{
+        height: 280px;
+        width: 180px;
+    }
+
+    
+}
+@media only screen and (max-width: 770px){
+    .detaildiv{
+        /* background-color: slateblue; */
+        width: auto;
+        max-width: 430px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 20px 20px;
+        margin-left: 0px;
+    }
+    .imagesizing > img{
+        height: 280px;
+        width: 180px;
+    }
+    .picdiv{
+        width: 210px;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+        /* background-color: cadetblue; */
+    }
+    
+}
+@media only screen and (max-width: 710px){
+    .detaildiv{
+        /* background-color: seagreen; */
+        width: auto;
+        max-width: 200px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 20px 20px;
+        margin-left: 80px;
+    }
+    .imagesizing > img{
+        height: 280px;
+        width: 180px;
+    }
+    .picdiv{
+        width: 150px;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+        /* background-color: cadetblue; */
+    }
+    
+    
+}
+@media only screen and (max-width: 490px){
+    .detaildiv{
+        /* background-color: plum; */
+        width: auto;
+        max-width: 200px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 20px 20px;
+        margin-left: 0px;
+    }
+    .imagesizing > img{
+        height: 280px;
+        width: 180px;
+    }
+    .picdiv{
+        width: 150px;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+        /* background-color: cadetblue; */
+    }
+    
+}
+@media only screen and (max-width: 370px){
+    .detaildiv{
+        /* background-color: plum; */
+        width: auto;
+        max-width: 170px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 20px 10px;
+        margin-left: 0px;
+    }
+    .imagesizing > img{
+        height: 250px;
+        width: 150px;
+    }
+    .picdiv{
+        width: 140px;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+        /* background-color: cadetblue; */
+    }
+    
+}

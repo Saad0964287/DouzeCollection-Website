@@ -1,0 +1,276 @@
+.noneii{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between ;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px 0px;
+    border-top: 1px solid black;
+
+}
+.firstbox{
+    width: 300px;
+    height: 200px;
+    padding: 10px 30px;
+    /* background-color: hotpink; */
+    font-family: candara;
+    text-align: left;
+    text-decoration: none;
+
+
+}
+
+.secondbox{
+    width: 290px;
+    height: 200px;
+    padding: 10px 30px;
+    /* background-color: rosybrown; */
+    text-align: left;
+}
+
+.thirdbox{
+    width: 110px;
+    height: 200px;
+    padding: 10px 30px;
+    /* background-color: teal; */
+    text-align: left;
+}
+
+
+.fourbox{
+    width: 250px;
+    height: 200px;
+    padding: 10px 30px;
+    /* background-color: royalblue; */
+    text-align: left;  
+}
+
+.customer{
+    text-align: left;
+}
+
+#footerli{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.number{
+    font-family: century gothic ;
+}
+.dfd{
+    text-decoration: none;
+}
+
+
+/* ****************************************** */
+                /* ICONS Begain*/
+
+.icondiv1 , .icondiv2 ,.icondiv3 , .icondiv4{
+    color: black ;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding:6px ;
+    background-color: none;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+#iconfa ,#icontw , #iconin ,#iconyo{
+    margin-top: 4px;
+}
+
+
+.icondiv1:hover{
+    color: whitesmoke;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding: 6px ;
+    background-color: royalblue;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+.icondiv2:hover{
+    color: whitesmoke;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding:6px ;
+    background-color: rgb(0, 153, 255);
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+.icondiv3:hover{
+    color: whitesmoke;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding:6px ;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+.icondiv4:hover{
+    color: whitesmoke;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding:6px ;
+    background-color: rgb(173, 20, 20);
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+
+#icontw1 , #icontw2 ,#icontw3 ,#icontw4 {
+    text-decoration: none;
+    color: black ;
+}
+
+/* ****************************************** */
+                /* ICONS End*/
+
+
+#footerli:hover{
+    color: brown;
+}
+
+
+
+                /* MediaQuery */
+@media only screen and (max-width: 900px){
+    .noneii{
+        /* background-color: tomato; */
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+    .secondbox{
+        width: 300px;
+        height: 200px;
+        padding: 10px 30px;
+        /* background-color: rosybrown; */
+        text-align: left;
+    }
+   .customer{
+       position: absolute;
+   }
+   .extra{
+    width: 180px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    .noneii{
+        width: 100%;
+        /* background-color: violet; */
+        height: 260px;
+        padding-bottom: 50px;
+    }
+    .secondbox{
+        width: 290px;
+        margin-right: 60px;
+        height: 200px;
+        padding: 10px 30px;
+        /* background-color: rosybrown; */
+        text-align: left;
+    }
+    .fourbox{
+        width: fit-content;
+        height: 200px;
+        padding: 10px 30px;
+        text-align: left;  
+        position: relative;
+        top: 120px;
+        right: 170px;
+        bottom:  0px;
+        display: inline-block;
+    }
+    .extra{
+        width: 180px;
+    }
+
+}
+
+@media only screen and (max-width: 670px){
+    .noneii{
+        /* background-color: yellowgreen; */
+        height: 400px;
+        padding-bottom: 60px;
+        padding-right: 0px;
+    }
+    .secondbox{
+        width: 290px;
+        height: 200px;
+        padding: 10px 30px;
+        /* background-color: rosybrown; */
+        text-align: left;
+        position: relative;
+        right: 260px;
+        top: 190px;
+    }
+    .thirdbox{
+        position: relative;
+        right: 170px;
+    }
+    .fourbox{
+        width: fit-content;
+        height: 200px;
+        padding: 10px 30px;
+        text-align: left;  
+        position: relative;
+        top: 160px;
+        right: 340px;
+        bottom:  0px;
+        display: inline-block;
+    }
+    
+}
+
+@media only screen and (max-width : 530px){
+    .noneii{
+        /* background-color: yellowgreen; */
+        height: 700px;
+        
+        padding-bottom: 60px;
+        padding-right: 0px;
+    }
+    .thirdbox{
+        position: relative;
+        top: 420px;
+        right: 500px;
+    }
+    .fourbox{
+        height: 200px;
+        padding: 10px 30px;
+        text-align: left;  
+        position: relative;
+        top: 560px;
+        right: 670px;
+        bottom:  0px;
+        display: inline-block;
+    }
+    .extra{
+        width: 180px;
+    }
+
+}

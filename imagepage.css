@@ -1,0 +1,223 @@
+
+.picmain{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative; 
+    
+}
+.picdiv{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    /* background-color: cadetblue; */
+}
+.picdiv> img{
+    height: 100%;
+    width: 100%;
+}
+.detaildiv{
+    /* background-color: royalblue; */
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 0px 20px;
+}
+.picheadingfont{
+    font-family: Nyala;
+    font-size: 40px;
+}
+.priceheading{
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.stock{
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+}
+.zzi{
+    position: relative;
+    bottom: 20px;
+}
+.fabric ,.color, .discriptionheading{
+    font-weight: bold;
+    line-height: 50px;
+}
+.descriptioncaption{
+    position: relative;
+    bottom: 40px;
+    /* background-color: chartreuse; */
+}
+.purchase{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 55px;
+    cursor: pointer;
+}
+.purchase:hover{
+    height: 40px;
+    width: 120px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px black solid;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 55px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 920px){
+    .picmain{
+        height: 100%;
+        width: 100%;
+        /* background-color: chocolate; */
+        position: relative;    
+    }
+    .picdiv{
+        width: 250px;
+        height: 400px;
+        position: relative;
+        display: inline-block;
+        /* background-color: cadetblue; */
+    }
+    .detaildiv{
+        /* background-color: royalblue; */
+        width: 350px;
+        height: 400px;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 0px 20px;
+    }
+
+    /* ------------------- */
+    .picheadingfont{
+        font-family: Nyala;
+        font-size: 30px;
+    }
+    .priceheading{
+        font-family: Tw Cen MT;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    .stock{
+        font-size: 11px;
+        position: relative;
+        bottom: 20px;
+    }
+    .zzi{
+        position: relative;
+        bottom: 30px;
+        font-size: 12px;
+    }
+    .fabric ,.color, .discriptionheading{
+        font-weight: bold;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .descriptioncaption{
+        position: relative;
+        bottom: 40px;
+        font-size: 12px;
+        /* background-color: chartreuse; */
+    }
+   
+}
+
+@media only screen and (max-width: 680px){
+    .picmain{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        position: relative;    
+    }
+    .picdiv{
+        width: 150px;
+        height: 260px;
+        position: relative;
+        display: inline-block;
+        /* background-color: cadetblue; */
+    }
+    .detaildiv{
+        /* background-color: royalblue; */
+        width: 250px;
+        height: 260px;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        padding: 0px 20px;
+    }
+
+    /* ------------------- */
+    .picheadingfont{
+        font-family: Nyala;
+        font-size: 20px;
+    }
+    .priceheading{
+        font-family: Tw Cen MT;
+        font-size: 14px;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 15px;
+    }
+    .stock{
+        font-size: 9px;
+        position: relative;
+        bottom: 35px;
+    }
+    .zzi{
+        position: relative;
+        bottom: 40px;
+        font-size: 11px;
+    }
+    .fabric ,.color, .discriptionheading{
+        font-weight: bold;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .descriptioncaption{
+        position: relative;
+        bottom: 50px;
+        font-size: 12px;
+        width: 270px;
+        /* background-color: chartreuse; */
+    }
+    .purchase{
+        height: 30px;
+        width: 100px;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        letter-spacing: 1px;
+        position: relative;
+        bottom: 80px;
+        cursor: pointer;
+    }
+    .purchase:hover{
+        height: 30px;
+        width: 100px;
+        background-color: whitesmoke;
+        color: black;
+        border: 1px black solid;
+        letter-spacing: 1px;
+        position: relative;
+        bottom: 80px;
+        cursor: pointer;
+    }
+   
+}

@@ -1,0 +1,234 @@
+*{
+    font-family: Century gothic;
+}
+
+.nevigation-bar{
+    color: black;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: solid 1px brown ;
+    border-bottom: solid 1px brown ;
+    z-index: -auto;
+    position: relative;
+    bottom: 560px;
+    
+}
+
+.navigation-ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    bottom: 35px;
+}
+
+#navigation-li{
+    display: inline-block;
+    padding-top: 35px ;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin-left: auto;
+    
+}
+
+#link-nav{
+    text-decoration: none;
+    color: black;
+
+}
+.home{
+    height: 50px;
+    width: auto;
+    padding-left: 50px;
+    min-width: 60px;
+    position: relative;
+}
+
+.home1{
+    height: 50px;
+    width: 140px;
+    min-width: 60px;
+    position: relative;
+    cursor: pointer;
+    background-color: none;
+    color: black;
+    /* border: solid 1px black; */
+}
+.home1:hover{
+    color: brown;
+
+}
+
+
+.span000{
+    width: 50px;
+    position: relative;
+    top: 15px;
+}
+
+
+.home:hover  {
+    /* background-color: black; */
+    color: brown;
+    text-align: center;
+    cursor: pointer;
+    
+/* -------------------------------------- */
+            /* SECOND LEVEL */
+}
+.secondlevel{
+    display: none;
+    position: absolute;
+    height: auto;
+    width: 200px;
+    top: 50px;
+    right: -20px;
+    padding-top :0px ;
+    padding-bottom :20px ;
+    background-color: none;
+    color: black;
+    font-size: 11px;
+}
+
+.secondlevel1{
+    display: none;
+    position: absolute;
+    height: auto;
+    width: 200px;
+    top: 50px;
+    right: -85px;
+    padding-top :0px ;
+    padding-bottom :20px ;
+    background-color: none;
+    color: black;
+    font-size: 11px;
+}
+.secondlevel2{
+    display: none;
+    position: absolute;
+    height: auto;
+    width: 200px;
+    top: 50px;
+    right: -60px;
+    padding-top :0px ;
+    padding-bottom :20px ;
+    background-color: none;
+    color: black;
+    font-size: 11px;
+}
+
+
+
+.secondlevel-ul{
+    list-style-type: none;
+    line-height: 60px;
+}
+.secondlevel1-ul{
+    list-style-type: none;
+    line-height: 60px;
+}
+.secondlevel2-ul{
+    list-style-type: none;
+    line-height: 60px;
+}
+
+
+.home:hover .secondlevel{
+    display: block;
+    text-align: left;
+    line-height: 30px;
+}
+
+.home:hover .secondlevel1{
+    display: block;
+    text-align: left;
+    line-height: 30px;
+}
+.home:hover .secondlevel2{
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    
+}
+/* .home:hover #childclass01{
+    background-color: tomato;
+} */
+
+#childclass01{
+    padding-left: 20px;
+}
+#childclass01:hover{
+    background-color: brown;
+    /* border: 1px solid brown; */
+    color: white;
+    height: 40px;
+    width: 100px;
+    padding-bottom: 13px;   
+}
+
+
+
+
+/* thirdlevel */
+
+.thirdlevel , .thirdlevel1 , .thirdlevel2{
+    display: none;
+    position: absolute;
+}
+
+.thirdlevel-ul{
+    list-style-type: none;    
+}
+
+/* hover 3 time  */
+
+#childclass01:hover .thirdlevel{
+    display: block;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+
+#childclass01:hover .thirdlevel1{
+    display: block;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+#childclass01:hover .thirdlevel2{
+    display: block;
+    color: black;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+        /* end */
+
+
+
+        
+.thirdclasshover{
+    width: 190px;
+    padding-left:10px ;
+}
+
+.thirdclasshover:hover{
+    color: white;
+    background-color: brown;
+    width: 190px;
+    height: 40px;
+    padding-bottom: 13px; 
+    padding-left: 20px;
+}
+
+
+/* ------------------------------- */
+        /* Alteration */
+
